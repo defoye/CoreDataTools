@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoreDataTools'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'CoreDataTools simplifies Core Data CRUD operations with an easy to use API.'
 
 # This description is used to generate tags and improve search results.
