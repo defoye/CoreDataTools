@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CoreDataTools_Example' do
+  pod 'CoreDataTools', :path => '../'
+
+  target 'CoreDataTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
