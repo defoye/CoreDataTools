@@ -1,0 +1,16 @@
+PODS:
+  - CoreDataTools (0.1.0)
+
+DEPENDENCIES:
+  - CoreDataTools (from `../`)
+
+EXTERNAL SOURCES:
+  CoreDataTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreDataTools: 7be1925ff3dcbb531f8f8eead4bf92115aa85732
+
+PODFILE CHECKSUM: 7a89588e9928a8a6d2c899f00f26558154878cd8
+
+COCOAPODS: 1.7.5

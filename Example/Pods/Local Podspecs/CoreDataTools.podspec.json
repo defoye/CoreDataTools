@@ -1,0 +1,22 @@
+{
+  "name": "CoreDataTools",
+  "version": "0.1.0",
+  "summary": "A short description of CoreDataTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/defoye/CoreDataTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "defoye": "erniedefoy3@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/defoye/CoreDataTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CoreDataTools/Classes/**/*"
+}

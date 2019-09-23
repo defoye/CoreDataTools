@@ -10,13 +10,13 @@ import CoreData
 
 public class AppContext {
 	
-	let managedContext: NSManagedObjectContext?
+	public let managedContext: NSManagedObjectContext?
 	
 	public init(context: NSManagedObjectContext) {
 		self.managedContext = context
 	}
 	
-	func fetchData(entity: String, predicate: NSPredicate?) -> [NSManagedObject]? {
+	public func fetchData(entity: String, predicate: NSPredicate?) -> [NSManagedObject]? {
 		
 		guard let viewContext = self.managedContext else { return nil }
 		let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
@@ -38,7 +38,7 @@ public class AppContext {
 		return nil
 	}
 	
-	func fetchEntityDescription(name: String) -> NSEntityDescription? {
+	public func fetchEntityDescription(name: String) -> NSEntityDescription? {
 		var entity: NSEntityDescription? = nil
 		
 		if let context = self.managedContext {
@@ -50,7 +50,7 @@ public class AppContext {
 		return entity
 	}
 	
-	func saveContext() {
+	public func saveContext() {
 		do {
 			try self.managedContext?.save()
 		} catch let err {
@@ -59,7 +59,7 @@ public class AppContext {
 		}
 	}
 	
-	func deleteData(entity: String, predicate: NSPredicate) {
+	public func deleteData(entity: String, predicate: NSPredicate) {
 		guard let viewContext = self.managedContext else { return }
 		let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
 		
@@ -80,7 +80,7 @@ public class AppContext {
 		}
 	}
 	
-	func updateData(entity: String, predicate: NSPredicate, newValue: Any, key: String) {
+	public func updateData(entity: String, predicate: NSPredicate, newValue: Any, key: String) {
 		guard let objects: [NSManagedObject] = self.fetchData(entity: entity, predicate: predicate) else { return }
 		
 		for obj in objects {
