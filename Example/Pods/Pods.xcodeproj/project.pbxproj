@@ -14,7 +14,6 @@
 		849D64F40AE9529198117627B2B1264C /* Pods-CoreDataTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F535CB259882CB3928FF0A700FE1F59 /* Pods-CoreDataTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89E6A10D03FA97D22CB7EE3FC560B387 /* CoreDataTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 232DB4CEBE08C8EFF2D25F3419D202D3 /* CoreDataTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CBE7AF72DE11D106E5CC8DBDED75EDC /* Pods-CoreDataTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1017FFBBF54AF0D2E70D7373765B3905 /* Pods-CoreDataTools_Example-dummy.m */; };
-		8E379D005EE9112E84DD1E68E061FFBA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8FDD5B3F03B319765794B30477800F /* ReplaceMe.swift */; };
 		B6FD2995DADDD14B3828FC4574CD2CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C8A6BDA24314EE032CB9B3931C0AF19F /* Pods-CoreDataTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 446343EE257AC3E78BF37B0C1580535B /* Pods-CoreDataTools_Tests-dummy.m */; };
 		F712230E82B996EEB66B3599148B20B1 /* CoreDataTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C83992B9B54B7274B7A077F54CDB8 /* CoreDataTools-dummy.m */; };
@@ -62,7 +61,6 @@
 		97A57488AE5D944327306319AC817690 /* Pods-CoreDataTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoreDataTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB6AD3AD1652ED0E9CA635A91E506D50 /* Pods-CoreDataTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoreDataTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF8FDD5B3F03B319765794B30477800F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CoreDataTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		B6DA3FF3573B581629156C978E33350E /* Pods_CoreDataTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreDataTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67483A26991D9FAAFDD918FC5135E62 /* CoreDataTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreDataTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C700E6B567AA4837A06FDD42B307EEE9 /* Pods-CoreDataTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CoreDataTools_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -183,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				53708CF423384E3F001D4ED6 /* AppContext.swift */,
-				AF8FDD5B3F03B319765794B30477800F /* ReplaceMe.swift */,
 				94BAACCA2B1C9448DAE11A9D1DC2FDB1 /* Pod */,
 				E07775870EF2A8A25454DAC60927AEFD /* Support Files */,
 			);
@@ -369,7 +366,6 @@
 			files = (
 				F712230E82B996EEB66B3599148B20B1 /* CoreDataTools-dummy.m in Sources */,
 				53708CF523384E3F001D4ED6 /* AppContext.swift in Sources */,
-				8E379D005EE9112E84DD1E68E061FFBA /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
