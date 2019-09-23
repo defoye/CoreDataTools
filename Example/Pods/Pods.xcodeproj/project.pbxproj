@@ -182,10 +182,10 @@
 		CB1F49758BDEDFF60AB3F3BF16F1D1FB /* CoreDataTools */ = {
 			isa = PBXGroup;
 			children = (
+				53708CF423384E3F001D4ED6 /* AppContext.swift */,
 				AF8FDD5B3F03B319765794B30477800F /* ReplaceMe.swift */,
 				94BAACCA2B1C9448DAE11A9D1DC2FDB1 /* Pod */,
 				E07775870EF2A8A25454DAC60927AEFD /* Support Files */,
-				53708CF423384E3F001D4ED6 /* AppContext.swift */,
 			);
 			name = CoreDataTools;
 			path = ../..;
